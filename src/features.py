@@ -1,4 +1,4 @@
-"""Windowing, labelling and feature extraction for GPVS-Faults."""
+"""Windowing, labeling and feature extraction for GPVS-Faults."""
 from pathlib import Path
 
 import numpy as np
