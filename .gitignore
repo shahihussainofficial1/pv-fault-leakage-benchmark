@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.pyc
+data/raw/
+paper/*.aux
+paper/*.log
+paper/*.out
+paper/*.bbl
+paper/*.blg
+paper/*.synctex.gz
+.ipynb_checkpoints/
+Shahi_2026_PV_Fault_Diagnosis_Leakage.pdf
