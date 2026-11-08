@@ -115,7 +115,7 @@ z_j=\operatorname{clip}\!\left(\frac{f_j-\mu_j}{\max(\sigma_j,\,10^{-3}|\mu_j|,\
 The reference windows are used only for $\mu_j,\sigma_j$ and are excluded from all training and test sets in Protocols P3--P5 below.
 
 \subsection{Classifiers}
-We compare logistic regression (LR), a depth-8 decision tree (DT), a 200-tree random forest (RF)~\cite{breiman2001rf}, LightGBM with 200 trees of 15 leaves (LGBM)~\cite{ke2017lightgbm}, and a two-layer multilayer perceptron with 64 and 32 units (MLP), all implemented with scikit-learn~\cite{pedregosa2011sklearn}. Class weights are balanced for LR, DT, RF and LGBM; LR and MLP inputs are standardized. Hyperparameters are fixed a priori to avoid tuning on test data.
+We compare logistic regression (LR), a depth-8 decision tree (DT), a 200-tree random forest (RF)~\cite{breiman2001rf} and a two-layer multilayer perceptron with 64 and 32 units (MLP), all implemented with scikit-learn~\cite{pedregosa2011sklearn}, and gradient-boosted trees with 200 iterations of 15 leaves from the LightGBM library (LGBM)~\cite{ke2017lightgbm}. Class weights are balanced for LR, DT, RF and LGBM; LR and MLP inputs are standardized. Hyperparameters are fixed a priori to avoid tuning on test data.
 
 \subsection{Evaluation Protocols}
 \begin{itemize}
