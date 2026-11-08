@@ -17,7 +17,7 @@ Leakage-aware evaluation of machine learning for fault diagnosis in grid-connect
 - **Baseline referencing** (features expressed relative to a 2 s healthy reference of the same installation) roughly doubles cross-mode macro-F1.
 - A **training-free detector** (`max |z|` over 19 physics-informed features), calibrated on MPPT data only, transfers to IPPT with a **0.7% false-alarm rate** and detects PV open-circuit (97–99%), sensor (77–79%), inverter (67–77%) and boost-controller (35–46%) faults. Partial shading and MPPT-controller faults remain undetected.
 
-The preprint is available in [`paper/main.pdf`](paper/main.pdf).
+The preprint is available in [`paper/main.pdf`](paper/main.pdf) and on Zenodo: [doi:10.5281/zenodo.24053423](https://doi.org/10.5281/zenodo.24053423).
 
 ## Repository structure
 
@@ -65,6 +65,7 @@ A. Bakdi, A. Guichi, S. Mekhilef, W. Bounoua, *GPVS-Faults: Experimental data fo
   author = {Haider Md. Faiyaz Hussain Shahi},
   year   = {2026},
   note   = {Preprint},
+  doi    = {10.5281/zenodo.24053423},
   url    = {https://github.com/shahihussainofficial1/pv-fault-leakage-benchmark}
 }
 ```
